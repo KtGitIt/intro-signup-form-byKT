@@ -78,8 +78,8 @@ small {
 }
 
 .input::placeholder {
-  color: hsl(249, 3%, 48%);
-  font-weight: 600;
+  color: hsl(249, 10%, 26%);
+  font-weight: 700;
 }
 .input-error {
   border: 1px solid hsl(0, 100%, 74%);
@@ -145,7 +145,7 @@ small {
   .container {
     max-width: 1440px;
     padding: 0;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
