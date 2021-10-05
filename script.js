@@ -5,7 +5,6 @@ const firstName = document.querySelector('.firstname');
 const lastName = document.querySelector('.lastname');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
-const allInputs = document.querySelectorAll('input');
 
 // Email Validation
 function isEmail(email) {
@@ -65,11 +64,6 @@ function validateInputs() {
     displayErrorFor(password, 'Password cannot be empty');
   } else hideErrorFor(password);
 }
-
-// check validation when cursor is gone
-allInputs.forEach((e) => {
-  e.onblur = validateInputs;
-});
 
 // Submit for validation
 submitBtn.addEventListener('click', (e) => {

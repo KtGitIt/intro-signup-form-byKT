@@ -26,6 +26,7 @@ small {
 }
 .container {
   width: 100%;
+  max-width: 550px;
   padding: 1rem;
   margin: 2rem auto;
 }
